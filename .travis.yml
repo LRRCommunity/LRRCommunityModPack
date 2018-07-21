@@ -16,7 +16,7 @@ deploy:
   file_glob: true
   file: 
   - build/distributions/SnorshCraft*.zip
-#  - ChangeLog.txt
+  - build/ChangeLog.txt
   on:
     repo: LRRCommunity/LRRCommunityModPack
     tags: true
