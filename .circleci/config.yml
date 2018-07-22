@@ -30,4 +30,6 @@ jobs:
       - store_artifacts:
           path: build/distributions
           destination: outputs
-          
+      - store_artifacts:
+          path: build/ChangeLog.txt
+          destination: outputs/ChangeLog.txt

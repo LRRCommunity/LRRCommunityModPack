@@ -1,3 +1,0 @@
-toml
-GitPython
-jinja2
