@@ -253,3 +253,28 @@ recipes.remove(<enderio:block_powered_spawner>);
 #Add Advanced Gen Advanced Pressure Valve Recipes
 mods.thermalexpansion.InductionSmelter.addRecipe(<advgenerators:advanced_pressure_valve>, <thermalfoundation:material:167> * 8, <advgenerators:pressure_valve>, 50000);
 mods.thermalexpansion.InductionSmelter.addRecipe(<advgenerators:advanced_pressure_valve>, <enderio:item_alloy_ingot:2> * 8, <advgenerators:pressure_valve>, 50000);
+
+#Add Recipes to convert Quark pressure plates to Oak pressure plates
+recipes.addShapeless(<minecraft:wooden_pressure_plate>, [<quark:dark_oak_pressure_plate>]);
+recipes.addShapeless(<minecraft:wooden_pressure_plate>, [<quark:acacia_pressure_plate>]);
+recipes.addShapeless(<minecraft:wooden_pressure_plate>, [<quark:jungle_pressure_plate>]);
+recipes.addShapeless(<minecraft:wooden_pressure_plate>, [<quark:birch_pressure_plate>]);
+recipes.addShapeless(<minecraft:wooden_pressure_plate>, [<quark:spruce_pressure_plate>]);
+
+#Add recipes for Cave Crystals and Quark Runes
+recipes.addShaped(<quark:crystal:4> * 4, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<minecraft:quartz_block>, <botania:dye:5>, <minecraft:glowstone>], [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
+recipes.addShaped(<quark:rune:15>, [[<quark:crystal>, <quark:crystal>, <quark:crystal>],[<quark:crystal>, <minecraft:stone>, <quark:crystal>], [<quark:crystal>, <ore:dyeBlack>, <quark:crystal>]]);
+recipes.addShaped(<quark:rune:13>, [[<quark:crystal>, <quark:crystal>, <quark:crystal>],[<quark:crystal>, <minecraft:stone>, <quark:crystal>], [<quark:crystal>, <ore:dyeGreen>, <quark:crystal>]]);
+recipes.addShaped(<quark:rune:9>, [[<quark:crystal>, <quark:crystal>, <quark:crystal>],[<quark:crystal>, <minecraft:stone>, <quark:crystal>], [<quark:crystal>, <ore:dyeCyan>, <quark:crystal>]]);
+recipes.addShaped(<quark:rune:10>, [[<quark:crystal>, <quark:crystal>, <quark:crystal>],[<quark:crystal>, <minecraft:stone>, <quark:crystal>], [<quark:crystal>, <ore:dyePurple>, <quark:crystal>]]);
+recipes.addShaped(<quark:rune:12>, [[<quark:crystal>, <quark:crystal>, <quark:crystal>],[<quark:crystal>, <minecraft:stone>, <quark:crystal>], [<quark:crystal>, <ore:dyeBrown>, <quark:crystal>]]);
+recipes.addShaped(<quark:rune:8>, [[<quark:crystal>, <quark:crystal>, <quark:crystal>],[<quark:crystal>, <minecraft:stone>, <quark:crystal>], [<quark:crystal>, <ore:dye>, <quark:crystal>]]);
+recipes.addShaped(<quark:rune:7>, [[<quark:crystal>, <quark:crystal>, <quark:crystal>],[<quark:crystal>, <minecraft:stone>, <quark:crystal>], [<quark:crystal>, <ore:dyeGray>, <quark:crystal>]]);
+recipes.addShaped(<quark:rune:6>, [[<quark:crystal>, <quark:crystal>, <quark:crystal>],[<quark:crystal>, <minecraft:stone>, <quark:crystal>], [<quark:crystal>, <ore:dyePink>, <quark:crystal>]]);
+recipes.addShaped(<quark:crystal:3> * 4, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<minecraft:quartz_block>, <ore:dyeYellow>, <minecraft:glowstone>], [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
+recipes.addShaped(<quark:crystal:2> * 4, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<minecraft:quartz_block>, <ore:dyeOrange>, <minecraft:glowstone>], [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
+recipes.addShaped(<quark:crystal:1> * 4, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<minecraft:quartz_block>, <ore:dyeRed>, <minecraft:glowstone>], [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
+recipes.addShaped(<quark:crystal> * 4, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<minecraft:quartz_block>, <ore:dyeWhite>, <minecraft:glowstone>], [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
+recipes.addShaped(<quark:crystal:7> * 4, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<minecraft:quartz_block>, <ore:dyeMagenta>, <minecraft:glowstone>], [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
+recipes.addShaped(<quark:crystal:6> * 4, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<minecraft:quartz_block>, <ore:dyeBlue>, <minecraft:glowstone>], [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
+recipes.addShaped(<quark:crystal:5> * 4, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],[<minecraft:quartz_block>, <ore:dyeLightBlue>, <minecraft:glowstone>], [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>]]);
